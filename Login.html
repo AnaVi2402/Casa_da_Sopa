@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="Login.css">
+
+</head>
+<body>
+    <Section class="login">
+        <div class="titulo">
+            <h2>Casa da Sopa de Restinga</h2>
+            <h3>Sistema de Gestão Interno</h3>
+        </div>
+        <div class="login-form">
+            <div class="mensagemErro escondido" id="mensagemErro"></div>
+            <div class="login-header">
+            <div class="logo-people">
+                <img src="people.png" alt="Login" id="login-image">
+            </div>
+            <div class="cabecalho-login">
+                <h3>Faça seu login</h3>
+                <p>Acesso restrito para colaboradores</p>
+            
+            </div>
+            </div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" placeholder="Digite seu email">
+            <label for="senha">Senha:</label>
+            <div class="inputSenha">
+                   <input type="password" id="senha" placeholder="Digite sua senha">
+                   <img src="olhoAberto.png" alt="Mostrar senha" id="mostrarSenha">
+                <img src="olhoFechado.png" alt="Esconder senha" id="esconderSenha">
+               </div>
+            <button type="submit" id="botaoEntrar">Entrar no sistema</button>
+            <a href="recuperar-senha.html">Esqueci minha senha</a>
+        </div>
+    </Section>
+    <script src="Login.js"></script>
+</body>
+</html>
